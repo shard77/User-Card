@@ -1,1 +1,2 @@
-Website in development, this is a temporary creation of an user card. 
+# User Card
+Simple user card created with tailwindcss and react
