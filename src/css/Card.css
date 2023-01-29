@@ -1,0 +1,42 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.card-background {
+    --s: 150px;
+    background:
+      linear-gradient(135deg,#0000 18.75%,#000212 0 31.25%,#0000 0),
+      repeating-linear-gradient(45deg,#000212 -6.25% 6.25%, #000d33 0 18.75%);
+    background-size: var(--s) var(--s); 
+}
+
+.avatar {
+    border-radius:50%;
+}
+
+.icons {
+    color:white;
+}
+
+.card-items div {
+    margin-bottom:1em;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover { 
+    transform: scale(1.3); 
+    color:rgb(0, 145, 255);
+}
+
+.text-wrapper {
+    background: rgba(0, 0, 0, 0.559);
+    padding: 10px;
+}

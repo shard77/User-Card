@@ -1,0 +1,31 @@
+@media only screen and (max-width: 480px) {
+
+    body {
+        overflow: scroll;
+    }
+      
+    .card-background {
+        background:none;
+        padding:0;
+    }
+
+    p {
+        font-size: 1.1em !important;
+    }
+      
+} 
+
+@media (min-width: 481px) and (max-width: 700px) {
+    body {
+        overflow: scroll;
+    }
+
+    .card-background {
+        background:none;
+        padding:0;
+    }
+
+    p {
+        font-size: 1.1em !important;
+    }
+}
